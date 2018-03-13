@@ -1,0 +1,25 @@
+.coolbutton{
+  max-height: 50px;
+  background-color: #F44336;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border-radius: 3px!important;
+}
+.coolbutton a{
+  display: block;
+  width: 278px;
+  max-width: 278px;
+  padding: 10px;
+  background: none;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+  transition: color .1s linear;
+  cursor: pointer;
+}
+.coolbutton a:hover{
+  background-color: #E57373;
+  text-decoration: none;
+  transition: .2s ease-in-out;
+  border-radius: 3px;
+}
